@@ -1,0 +1,23 @@
+.container{
+    width: 100%;
+    max-width: 150rem;
+    margin: 0 auto;
+    padding: 2.6rem 5.8rem;
+}
+
+.section-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.section-title h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #80D628;
+}
+.section-line{
+    width: 182px;
+    height: 2px;
+    background-color: #c4E454;
+}

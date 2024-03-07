@@ -1,0 +1,52 @@
+.container{
+    width: 100%;
+    max-width: 150rem;
+    margin: 0 auto;
+    padding: 2.6rem 5.8rem;
+}
+.blog-cont-img img{
+
+    width: 70%;
+   margin-top: 23px;
+}
+.grid11{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+   
+}
+.Image img{
+    width: 70%;
+    margin-top: -80px;
+    margin-left: 60px;
+}
+.text{
+    width: 90%;
+}
+.text h1{
+    font-weight: bold;
+    font-size: 22px;
+}
+.text p{
+    color: #7e7c7c;
+    font-size: 18px;
+    font-weight: 600;
+}
+.text-contact{
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 30px;
+}
+.text-contact h1{
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+}
+.text-contact p{
+    color: #7e7c7c;
+    font-size: 18px;
+    font-weight: 600;
+}
+ .contact-img{
+    margin-top: 50px;
+    
+}

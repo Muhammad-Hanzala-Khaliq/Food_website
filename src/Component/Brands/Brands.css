@@ -1,0 +1,33 @@
+.container{
+    width: 100%;
+    max-width: 150rem;
+    margin: 0 auto;
+    padding: 2.6rem 5.8rem;
+}
+
+.grid22{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1px;
+}
+
+@media(max-width:1140px){
+    .hero1{
+        display: flex;
+       justify-content: flex-start;
+       margin-left: -40px;
+     padding: 0 20px;
+    }
+}
+@media(max-width:1080px){
+    .hero1{
+        
+       margin-left: -190px;
+    }
+}
+@media(max-width:950px){
+    .hero1{
+        
+       margin-left: -250px;
+    }
+}

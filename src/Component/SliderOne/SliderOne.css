@@ -1,0 +1,63 @@
+.hoverIncrease{
+    padding: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 5;
+    align-items: center;
+    justify-content: center;
+    transition-duration: .3s;
+}
+.hoverIncrease img{
+    height: 120px;
+}
+.hoverIncrease .content{
+    margin-top: 25px;
+}
+.hoverIncrease .content h1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.hoverIncrease .content h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #1e8e02;
+}
+.price-underline{
+    width: 57px;
+    height: 1px;
+    background-color: black;
+    margin: 0px auto;
+}
+.select-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    color: #616161;
+    font-weight: 700;
+    margin-top: 16px;
+}
+.hoverIncrease:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+/* Default styles for larger screens */
+
+  /* For screens with a maximum width of 768px (tablets) */
+  @media (max-width: 768px) {
+    .swiper-container {
+      width: 100%; /* Set width to 50% for smaller devices */
+    }
+  }
+  
+  /* For screens with a maximum width of 640px (mobile devices) */
+  @media (max-width: 1640px) {
+    .mySwiper{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+    }
+  }
+  
